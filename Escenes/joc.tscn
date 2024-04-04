@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://8uu5ecv3cc85"]
 
-[ext_resource type="PackedScene" uid="uid://62ngevyfk8im" path="res://personatge.tscn" id="1_vayyv"]
+[ext_resource type="PackedScene" uid="uid://62ngevyfk8im" path="res://Escenes/personatge.tscn" id="1_vayyv"]
 
 [node name="Joc" type="Node2D"]
 
