@@ -1,8 +1,10 @@
-[gd_scene load_steps=2 format=3 uid="uid://62ngevyfk8im"]
+[gd_scene load_steps=3 format=3 uid="uid://62ngevyfk8im"]
 
-[ext_resource type="Texture2D" uid="uid://cj8y8gxk50opx" path="res://icon.svg" id="1_70ovl"]
+[ext_resource type="Texture2D" uid="uid://cj8y8gxk50opx" path="res://Imatges/icon.svg" id="1_70ovl"]
+[ext_resource type="Script" path="res://Scripts/personatge.gd" id="1_f0v86"]
 
 [node name="Personatge" type="CharacterBody2D"]
+script = ExtResource("1_f0v86")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 texture = ExtResource("1_70ovl")
